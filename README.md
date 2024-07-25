@@ -1,5 +1,6 @@
 # 💾LSDatabase
-https://img.shields.io/badge/star-https://api.github-star-counter.workers.dev/user/LootSpace369-green
+<img src="https://img.shields.io/badge/star-https://api.github-star-counter.workers.dev/user/LootSpace369-green"/>
+
 Easier database for PocketMine-MP.
 
 ## ❓What is it?
