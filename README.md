@@ -1,5 +1,6 @@
 # 💾LSDatabase
 <img alt="Static Badge" src="https://img.shields.io/badge/feature-database-aqua">
+<img alt="Static Badge" src="https://img.shields.io/badge/:badgeContent">
 
 Easier database for PocketMine-MP.
 
