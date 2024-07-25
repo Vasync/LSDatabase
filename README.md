@@ -8,6 +8,7 @@ Easier database for PocketMine-MP.
 - Better database.
 - Exchanging data between files will be easier.
 - Exchanges are no longer interrupted
+- Better SQL support
 
 ## ✍️Using:
 ### How to create a database:
