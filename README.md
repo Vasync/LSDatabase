@@ -1,5 +1,5 @@
 # 💾LSDatabase
-<img alt="feature" src="https://img.shields.io/badge/feature-database-aqua"> <img alt="Static" src="https://api.github.com/repos/LootSpace369/LSDatabase">
+<img alt="feature" src="https://img.shields.io/badge/feature-database-aqua">
 <img alt="approval" src="https://img.shields.io/badge/approval-not_yet-aqua">
 
 Easier database for PocketMine-MP.
