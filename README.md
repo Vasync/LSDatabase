@@ -1,5 +1,5 @@
 # 💾LSDatabase
-<img alt="feature" src="https://img.shields.io/badge/feature-database-aqua"><img alt="approval" src="https://img.shields.io/badge/approval-not_yet-blue"><br>
+<img alt="feature" src="https://img.shields.io/badge/feature-database-aqua"><img alt="approval" src="https://img.shields.io/badge/data_management-blue"><br>
 Easier database for PocketMine-MP.
 
 <a href="https://github.com/search?q=LootSpace369%2FLSDatabase&type=code">Plugins use it</a>
