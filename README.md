@@ -17,7 +17,7 @@ use ls369\LSDatabase\SQLite;
 
 //...
 
-$db = new SQLite($this->plugin->getDataFolder() . 'top.db', SQLITE3_OPEN_READWRITE | SQLITE3_OPEN_CREATE);
+$db = new SQLite($this->plugin->getDataFolder() . 'players.db', SQLITE3_OPEN_READWRITE | SQLITE3_OPEN_CREATE);
 
 $db->createTable("user", ["kienmc","pvmn"]);
 
