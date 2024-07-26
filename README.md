@@ -29,7 +29,7 @@ $db->set("user", ["kienmc" => "dutube", "pvmn" => "lacdit"]);
 $db->add('user', 'money', 'INTEGER');
 
 // get data
-$users = $db->get('users', ['kienmc', 'pvmn', 'money']);
+$users = $db->get('user', ['kienmc', 'pvmn', 'money']);
 // output: "dutube", "lacdit", "0";
 
 ```
