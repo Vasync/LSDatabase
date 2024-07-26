@@ -15,6 +15,11 @@ class SQLite extends SQLite3 {
         $this->exec($query);
         return $this;
     }
+
+    public function removeTable(string $name): void {
+        $query = "DROP TABLE IF EXISTS $name";
+        $this->exec($query);
+    }
     
     public function set(string $table, array $data): void {
         $columns = implode(", ", array_keys($data));
