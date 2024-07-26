@@ -19,7 +19,7 @@ class SQLite extends SQLite3 {
     public function set(string $table, array $data): void {
         $columns = implode(", ", array_keys($data));
         $values = implode(", ", array_map(fn($value) => "'" . SQLite3::escapeString($value) . "'", array_values($data)));
-        $query = "INSERT INTO $table ($columns) VALUES ($values)";
+        $query = "UPDATE INTO $table ($columns) VALUES ($values)";
             $this->exec($query);
         }
     
