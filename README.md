@@ -13,5 +13,23 @@ Easier database for PocketMine-MP.
 ## ✍️Using:
 ### How to create a database:
 ```PHP
-comming soon...
+use ls369\LSDatabase\SQLite;
+
+//...
+
+$db = new SQLite($this->plugin->getDataFolder() . 'top.db', SQLITE3_OPEN_READWRITE | SQLITE3_OPEN_CREATE);
+
+$db->createTable("user", ["kienmc","pvmn"]);
+
+// set the names in the user table
+$db->set("user", ["kienmc" => "dutube", "pvmn" => "lacdit"]);
+
+
+// add column to user table
+$db->add('user', 'money', 'INTEGER');
+
+// get data
+$users = $db->get('users', ['kienmc', 'pvmn', 'money']);
+// output: "dutube", "lacdit", "0";
+
 ```
