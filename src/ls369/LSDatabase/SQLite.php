@@ -40,4 +40,9 @@ class SQLite extends SQLite3 {
         $query = "ALTER TABLE $table ADD COLUMN $column $type";
         $this->exec($query);
     }
+
+    public function remove(string $table, string $column, string $type = 'TEXT'): void {
+        $query = "ALTER TABLE $table DROP COLUMN $column $type";
+        $this->exec($query);
+    }
 }
