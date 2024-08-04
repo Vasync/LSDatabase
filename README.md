@@ -22,7 +22,7 @@ $db = new SQLite($this->plugin->getDataFolder() . 'players.db', SQLITE3_OPEN_REA
 $db->createTable("user", ["kienmc","pvmn"]);
 
 // set the names in the user table
-$db->set("user", ["kienmc" => "dutube", "pvmn" => "lacdit"]);
+$db->set("user", "kienmc", "dutube");
 
 
 // add column to user table
