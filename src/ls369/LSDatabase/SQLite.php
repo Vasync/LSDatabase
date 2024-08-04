@@ -33,10 +33,10 @@ class SQLite extends SQLite3 {
         return false;
     }
     
-    public function set(string $table, array $data): void {
+    public function set(string $table, string $k, string $v): void {
         $columns = implode(", ", array_keys($data));
         $values = implode(", ", array_map(fn($value) => "'" . SQLite3::escapeString($value) . "'", array_values($data)));
-        $query = "UPDATE $table ($columns) VALUES ($values);";
+        $query = "UPDATE $table SET $k = $v;";
             $this->exec($query);
         }
     
