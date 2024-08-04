@@ -25,7 +25,7 @@ class SQLite extends SQLite3 {
     }
 
     public function existsTable(string $name): bool {
-        $query = "SELECT name FROM sqlite_master WHERE type='table' AND name='table_name';";
+        $query = "SELECT name FROM sqlite_master WHERE type='table' AND name=$name;";
         
         $result = $this->exec($query);
 
